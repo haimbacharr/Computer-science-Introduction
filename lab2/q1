@@ -1,0 +1,18 @@
+#include <stdio.h>
+void main()
+{
+	int num;
+	printf("enter number:");
+	scanf("%d", &num);
+	printf("\n number\t square\t cube");
+	printf("\n %4d\t %4d\t %4d ", num, num*num, num*num*num);
+	num++;
+	printf("\n %4d\t %4d\t %4d ", num, num*num, num*num*num);
+	num++;
+	printf("\n %4d\t %4d\t %4d ", num, num*num, num*num*num);
+	num++;
+	printf("\n %4d\t %4d\t %4d ", num, num*num, num*num*num);
+	num++;
+	printf("\n %4d\t %4d\t %4d ", num, num*num, num*num*num);
+
+}
