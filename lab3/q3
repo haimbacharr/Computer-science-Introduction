@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+double a, b, z;
+printf("Given an equation a^x=b \n enter an a and b,repectively:");
+scanf("%lf%lf", &a, &b);
+z =( log(b))/(log(a));
+printf("x is: %g",z);
+}
