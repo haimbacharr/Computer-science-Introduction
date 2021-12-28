@@ -1,0 +1,12 @@
+#include <stdio.h>   /*for printf*/      
+#include <conio.h>   /*for getch*/                      
+
+int main()
+{
+	printf("Hello World!\nwe are working om our first lab in introduction to computer science course.\n");/*print Hello World! and go to the
+								beginning of the next new line    */
+	_getch();                       /*input a character without printing*/
+	return 0;
+
+
+}
