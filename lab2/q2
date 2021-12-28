@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+	int a, b, c, y;
+	printf("enter a,b,c:");
+	scanf_s("%d%d%d", &a, &b, &c);
+	y = (a * 2) + (b *b) + c;
+	printf("y= a * 2 + b^2 + c=(%d)*2+(%d)^2+%d=%d",a,b,c, y);
+}
