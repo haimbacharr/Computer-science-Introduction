@@ -1,0 +1,10 @@
+#include <stdio.h>   /*for printf*/      
+#include <conio.h>   /*for getch*/                      
+
+int main()
+{
+	printf("we are drawing 4x5 rectangle: \n*****\n*   *\n*   *\n*****");
+	
+	_getch();                       /*input a character without printing*/
+	return 0;
+}
