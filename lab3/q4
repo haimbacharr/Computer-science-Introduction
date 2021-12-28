@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<math.h>
+void main()
+{
+double rad, base, a, volume, h;
+printf("Enter pyramid base edge (in centimiter),please:"); 
+scanf("%lf", &base);
+printf("\nEnter the pyramid angle (in degrees) between the pyramid side edge and its height,please: ");
+scanf("%lf", &a);
+rad = (3.14159 / 180) * a;
+h = pow(2, 1.0 / 2)*base / (2 * (tan(rad)));
+volume = (base*base)*(h / 3);
+printf("\nThe volume (in cubic centimeters) of the pyramid is %.3lf\n", volume);
+}
