@@ -1,0 +1,9 @@
+#include<stdio.h>
+void main()
+{
+char ch;
+printf("enter and English lower case letter,please:");
+ch = getchar();
+printf("\n The ascii code of '%c' is %d.", ch, ch);
+printf("\n The ascii code of '%c' is %d.", ch - ('a'-'A'),ch- ('a' - 'A'));
+}
